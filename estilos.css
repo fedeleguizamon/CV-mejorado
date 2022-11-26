@@ -1,0 +1,72 @@
+body{
+    background-color: #f5f5dc;
+    font-family: arial;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 12px;
+    width: 70%;
+    margin: 0 auto;
+    min-width: 250px;
+}
+fieldset{
+    margin: 20px;
+    display: flex;
+}
+legend{
+    background-color: #deb887;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+}
+nav{
+    text-align: center;
+    font-size: large;
+}
+
+footer{
+    background-color: rgb(71, 70, 70);
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin-top: auto;
+}
+img{
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 12px;
+    margin-left: 20px;
+}
+h1{text-align: center;}
+#github{
+    color: white;
+}
+.contactform{
+    justify-content: flex-end;
+}
+form{
+    text-align: center;
+    border: 1px solid;
+    background-color: beige;
+}
+form label{
+    margin: 4px;
+}
+form input{
+    margin: 4px;
+}
+#error{
+    margin: 7px;
+    width: 350px;
+    text-align:start ;
+}
